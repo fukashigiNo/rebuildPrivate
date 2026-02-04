@@ -3,13 +3,13 @@ import { Link } from "expo-router";
 import { Pressable, StatusBar, Text, View } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import {
-    loginSuccess,
-    setErrors,
-    setLogin,
-    setPassword,
-} from "../store/auth/authSlice";
-import Inputs from "./input";
-import PressableButton from "./Pressable";
+  loginSuccess,
+  setErrors,
+  setLogin,
+  setPassword,
+} from "../../store/auth/authSlice";
+import Inputs from "../Inputs/input";
+import PressableButton from "../Pressable";
 
 export default function LoginScreen() {
   const { login, password, errors, isAuthenticated } = useSelector(

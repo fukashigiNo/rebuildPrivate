@@ -7,10 +7,10 @@ import {
   setInn,
   setNsf,
   setPassword,
-} from "../store/auth/regSlice";
-import Inputs from "./input";
-import PressableButton from "./Pressable";
-import RoleList from "./RoleList";
+} from "../../store/auth/regSlice";
+import Inputs from "../Inputs/input";
+import PressableButton from "../Pressable";
+import RoleList from "../roles/RoleList";
 
 export const dropdownStyles = {
   position: "absolute",
