@@ -1,11 +1,7 @@
 import { Text, View } from "react-native";
 
 export function DairySection() {
-  return (
-    <View className="flex-1 justify-center items-center">
-      <Text>Dairy Section</Text>
-    </View>
-  );
+  return <View className="flex-1 mx-6"></View>;
 }
 
 export function ScheduleSection() {
